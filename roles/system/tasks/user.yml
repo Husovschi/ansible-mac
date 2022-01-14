@@ -1,0 +1,5 @@
+---
+- user:
+    name: "{{ ansible_env.USER }}"
+    shell: /opt/homebrew/bin/fish
+  become: yes

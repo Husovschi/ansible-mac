@@ -5,6 +5,10 @@
     - config.yml
 
   roles:
+
+    #
+    # Exterman roles 
+    #
     - role: elliotweiser.osx-command-line-tools
     - role: geerlingguy.mac.homebrew
       tags: ['homebrew']
@@ -16,7 +20,12 @@
       tags: ['mas']
     - role: geerlingguy.mac.dock
 
-  tasks:
-    - import_tasks: tasks/osx.yml
-      when: configure_osx
-      tags: ['osx']
+
+    #
+    # Internal roles
+    #
+    - role: system
+      tags:
+        - system
+
+
