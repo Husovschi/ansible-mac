@@ -1,0 +1,13 @@
+---
+- name: Clone the latest dotfiles repo
+  git:
+    repo: "{{ dotfiles_repo }}"
+    dest: /Users/{{ ansible_env.USER }}//dotfiles
+    recursive: no
+    force: yes
+  become: true
+
+- name: Stow the dotfiles
+  shell: cd /Users/{{ ansible_env.USER }}/dotfiles && stow -v */
+  register: stow_result
+  changed_when: stow_result.stdout != ""
