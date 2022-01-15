@@ -5,7 +5,7 @@
     dest: /Users/{{ ansible_env.USER }}//dotfiles
     recursive: no
     force: yes
-  become: true
+  become: yes
 
 - name: Stow the dotfiles
   shell: cd /Users/{{ ansible_env.USER }}/dotfiles && stow -v */

@@ -1,5 +1,62 @@
+---
 #
 # Misc
 #
 
 dotfiles_repo: https://github.com/Husovschi/dotfiles
+downloads: ~/.ansible-downloads/
+
+configure_dotfiles: true
+configure_terminal: true
+
+#
+# Dock config
+#
+configure_dock: true
+dockitems_remove: 
+  - Launchpad
+  - TV
+  - Podcasts
+  - 'App Store'
+
+dockeritems_persist: []
+
+#
+# Homebrew packages
+#
+homebrew_installed_packages:
+  - ffmpeg
+  - git
+  - go
+  - helm
+  - kompose
+  - terraform
+  - tmux
+  - youtube-dl
+  - zsh-autosuggestions
+  - fish
+  - stow
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - bitwarden
+  - brave-browser
+  - discord
+  - dozer
+  - firefox
+  - fluent-reader
+  - google-chrome
+  - mpv
+  - spotify
+  - stats
+  - telegram
+  - visual-studio-code
+  - vmware-fusion
+
+mas_installed_apps: []
+mas_email: ""
+mas_password: ""
