@@ -3,3 +3,10 @@
     name: "{{ ansible_env.USER }}"
     shell: /opt/homebrew/bin/fish
   become: yes
+  when: ansible_facts['ansible_architecture']|lower == 'aarch64'
+
+- user:
+    name: "{{ ansible_env.USER }}"
+    shell: /usr/local/bin/fish
+  become: yes
+  when: ansible_facts['ansible_architecture']|lower == 'x86_64'
