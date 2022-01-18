@@ -6,9 +6,6 @@
 dotfiles_repo: https://github.com/Husovschi/dotfiles
 downloads: ~/.ansible-downloads/
 
-configure_dotfiles: true
-configure_terminal: true
-
 #
 # Dock config
 #
@@ -54,6 +51,7 @@ homebrew_cask_apps:
   - spotify
   - stats
   - telegram
+  - vagrant
   - visual-studio-code
   - vmware-fusion
 
