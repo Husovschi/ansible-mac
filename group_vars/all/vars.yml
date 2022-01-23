@@ -15,6 +15,41 @@ dockitems_remove:
   - TV
   - Podcasts
   - 'App Store'
+  - Messages
+  - Maps
+  - Photos
+  - FaceTime
+  - Contacts
+  - Reminders
+  - Notes
+  - Music
+
+dockitems_persist:
+  - name: Mail
+    path: "/System/Applications/Mail.app/"
+    pos: 1
+  - name: Safari
+    path: "/Applications/Safari.app/"
+    pos: 2
+  - name: Calendar
+    path: "/System/Applications/Calendar.app/"
+    pos: 3
+  - name: System Preferences
+    path: "/System/Applications/System Preferences.app/"
+    pos: 4
+  - name: Terminal
+    path: "/System/Applications/Utilities/Terminal.app/"
+    pos: 5
+  - name: Activity Monitor
+    path: "/System/Applications/Utilities/Activity Monitor.app/"
+    pos: 6
+  - name: Visual Studio Code
+    path: "/Applications/Visual Studio Code.app/"
+    pos: 7
+  - name: Spotify
+    path: "/Applications/Spotify.app/"
+    pos: 8
+  
 
 dockeritems_persist: []
 
@@ -22,6 +57,7 @@ dockeritems_persist: []
 # Homebrew packages
 #
 homebrew_installed_packages:
+  - ansible
   - ffmpeg
   - fish
   - git
@@ -29,7 +65,6 @@ homebrew_installed_packages:
   - helm
   - htop
   - kompose
-  - fish
   - mas
   - neovim
   - stow
@@ -43,6 +78,7 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - aldente
   - bitwarden
   - brave-browser
   - discord

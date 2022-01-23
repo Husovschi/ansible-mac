@@ -152,13 +152,6 @@
     type: int
     value: 30
 
-# Speed up Mission Control animations
-- community.general.osx_defaults:
-    domain: com.apple.dock
-    key: expose-animation-duration
-    type: float
-    value: 0.15
-
 # Make Dock icons of hidden applications translucent
 - community.general.osx_defaults:
     domain: com.apple.dock
