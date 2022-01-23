@@ -23,16 +23,18 @@ dockeritems_persist: []
 #
 homebrew_installed_packages:
   - ffmpeg
+  - fish
   - git
   - go
   - helm
+  - htop
   - kompose
+  - fish
+  - mas
+  - neovim
+  - stow
   - terraform
   - tmux
-  - youtube-dl
-  - zsh-autosuggestions
-  - fish
-  - stow
 
 homebrew_taps:
   - homebrew/core
@@ -57,6 +59,7 @@ homebrew_cask_apps:
   - visual-studio-code
   - vmware-fusion
 
-mas_installed_apps: []
+mas_installed_apps: 
+  - { id: 441258766, name: "Magnet" }
 mas_email: ""
 mas_password: ""
