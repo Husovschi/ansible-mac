@@ -2,7 +2,7 @@
 - name: Clone the latest dotfiles repo
   git:
     repo: "{{ dotfiles_repo }}"
-    dest: /Users/{{ ansible_env.USER }}//dotfiles
+    dest: /Users/{{ ansible_env.USER }}/dotfiles
     recursive: no
     force: yes
 
