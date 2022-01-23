@@ -37,12 +37,14 @@ homebrew_installed_packages:
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
+  - homebrew/cask-drivers
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - bitwarden
   - brave-browser
   - discord
+  - displaylink
   - dozer
   - firefox
   - fluent-reader
