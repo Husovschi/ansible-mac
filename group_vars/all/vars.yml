@@ -65,6 +65,7 @@ homebrew_installed_packages:
   - helm
   - htop
   - kompose
+  - kubectl
   - mas
   - neovim
   - stow
