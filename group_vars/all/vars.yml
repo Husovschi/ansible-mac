@@ -62,6 +62,7 @@ homebrew_installed_packages:
   - fish
   - git
   - go
+  - hadolint
   - helm
   - htop
   - kompose
