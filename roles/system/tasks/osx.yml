@@ -27,6 +27,11 @@
     type: bool
     value: false
 
+- community.general.osx_defaults:
+    domain: com.apple.systemsound
+    key: com.apple.sound.uiaudio.enable
+    type: int
+    value: 0
 
 ###############################################################################
 # Trackpad, mouse, keyboard, Bluetooth accessories, and input                 #
