@@ -58,6 +58,7 @@ dockeritems_persist: []
 #
 homebrew_installed_packages:
   - ansible
+  - curl
   - ffmpeg
   - fish
   - git
