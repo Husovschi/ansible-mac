@@ -150,12 +150,6 @@
 # Dock, Dashboard, and hot corners                                            #
 ###############################################################################
 
-# Set the icon size of Dock items
-- community.general.osx_defaults:
-    domain: com.apple.dock
-    key: tilesize
-    type: int
-    value: 30
 
 # Make Dock icons of hidden applications translucent
 - community.general.osx_defaults:

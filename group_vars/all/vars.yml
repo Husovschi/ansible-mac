@@ -28,14 +28,14 @@ dockitems_persist:
   - name: Mail
     path: "/System/Applications/Mail.app/"
     pos: 1
-  - name: Safari
-    path: "/Applications/Safari.app/"
-    pos: 2
   - name: Calendar
     path: "/System/Applications/Calendar.app/"
+    pos: 2
+  - name: Firefox
+    path: "/Applications/Firefox.app/"
     pos: 3
-  - name: System Preferences
-    path: "/System/Applications/System Preferences.app/"
+  - name: System Settings
+    path: "/System/Applications/System\ Settings.app/"
     pos: 4
   - name: Terminal
     path: "/System/Applications/Utilities/Terminal.app/"
@@ -68,17 +68,18 @@ homebrew_installed_packages:
   - helm
   - htop
   - kompose
-  - kubectl
+  - kubernetes-cli
   - mas
   - neovim
   - stow
   - terraform
   - tmux
+  - youtube-dl
+
 
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
-  - homebrew/cask-drivers
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
@@ -86,18 +87,18 @@ homebrew_cask_apps:
   - bitwarden
   - brave-browser
   - discord
-  - displaylink
   - dozer
   - firefox
-  - fluent-reader
   - google-chrome
   - mpv
+  - obsidian
+  - qbittorrent
+  - raspberry-pi-imager
   - spotify
   - stats
   - telegram
   - vagrant
   - visual-studio-code
-  - vmware-fusion
 
 mas_installed_apps: 
   - { id: 441258766, name: "Magnet" }
