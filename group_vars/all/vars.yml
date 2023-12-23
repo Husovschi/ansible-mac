@@ -2,8 +2,6 @@
 #
 # Misc
 #
-
-dotfiles_repo: https://github.com/Husovschi/dotfiles
 downloads: ~/.ansible-downloads/
 
 #
